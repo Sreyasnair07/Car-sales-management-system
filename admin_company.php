@@ -2,7 +2,7 @@
 <?php
  // define database related variables
    $db_name = 'car_sales';
-   $host = 'localhost';
+   $host = 'localhost'; 
    $user = 'root';
    $password = '';
 
