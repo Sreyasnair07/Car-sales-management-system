@@ -20,6 +20,17 @@ if(isset($_POST['Insert']))
         {
             echo ' Please Fill in the Blanks ';
         }
+
+
+
+
+
+
+
+
+
+
+
         else
         {
             $compony_id = $_POST['id'];
@@ -88,6 +99,17 @@ if(isset($_POST['Insert']))
         }
     }
 
+
+
+
+
+
+
+
+
+
+
+
     elseif(isset($_POST['Search']))
     {
         if(!empty($_POST['id'])  )
@@ -139,6 +161,14 @@ if(isset($_POST['Insert']))
         }
          
     }
+
+
+
+
+
+
+
+
 
 
 
@@ -198,6 +228,9 @@ if(isset($_POST['Insert']))
                         li {
                             float: left;
             }
+
+
+
 
 
 
@@ -397,7 +430,7 @@ if(isset($_POST['Insert']))
                <input type="submit" value="Search" name="Search">
             </p>
           </form>
-            
+   
            
         </div>
 
